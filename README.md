@@ -11,14 +11,15 @@ Um site estático simples com foco em apresentação comercial — pronto para h
 
 ## Estrutura do repositório
 - index.html — Página principal (todo o site é aqui)
+- stemverse/index.html — Página pública do StemVerse (status: em desenvolvimento)
+- manifesto.md — Manifesto curto exibido/referenciado no site
 - robots.txt — Instruções para mecanismos de busca
 - CNAME — (Opcional) domínio personalizado para GitHub Pages
 - .nojekyll — Impede processamento Jekyll em GitHub Pages
 
-> Observação: o arquivo `manifesto.md` é citado no HTML mas não está presente no repositório. Se quiser, adicione um `manifesto.md` com o conteúdo do manifesto.
-
 ## O que este projeto entrega
 - Página única (home) com chamadas para ação (CTA) e contato por WhatsApp
+- Seção de portfólio com link para o StemVerse
 - Metadados para SEO (title, description, Open Graph, Twitter Card)
 - JSON-LD básico de organização
 - Layout responsivo e minimalista com CSS embutido
